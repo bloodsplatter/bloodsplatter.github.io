@@ -1,0 +1,13 @@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IronBeard.Core.Features.Generator.ViewContext
+@{
+    var pageTitle = Model.Current.Metadata.ContainsKey("Title") ? $"{Model.Current.Metadata["Title"]} |" : "";
+}
+<html>
+    <head>
+        <title>@pageTitle @Model.Config.SiteTitle</title>
+    </head>
+    <body>
+        @RenderBody()
+    </body>
+</html>

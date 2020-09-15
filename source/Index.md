@@ -1,5 +1,5 @@
 ---
-Title: LFW | Looking For Work
+Title: Homepage
 Tags: Homepage
 ---
 # Homepage

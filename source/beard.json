@@ -1,7 +1,8 @@
 {
     "Config":{
-        "SiteTitle": "LFW",
+        "SiteTitle": "LFW -- Looking For Work",
         "IndexFileName": "index",
+        "ExcludeHtmlExtension": false,
         "StaticExtensionIgnoreList" : [".cshtml", ".md", ".DS_Store", ".json" ],
         "EnableMarkdownExtensions" : true
     }
