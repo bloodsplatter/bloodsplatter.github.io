@@ -3,7 +3,7 @@
         "SiteTitle": "LFW -- Looking For Work",
         "IndexFileName": "index",
         "ExcludeHtmlExtension": false,
-        "StaticExtensionIgnoreList" : [".cshtml", ".md", ".DS_Store", ".json" ],
+        "StaticExtensionIgnoreList" : [".cshtml", ".md", ".DS_Store", ".json", "CNAME" ],
         "EnableMarkdownExtensions" : true
     }
 }
